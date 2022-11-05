@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(102, 45, 171);
+    cursor: pointer;
+}
+.ort{
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ort h1{
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
